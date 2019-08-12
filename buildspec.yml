@@ -5,10 +5,9 @@ phases:
         python: 3.7
   build:
     commands:
-      - echo "Esto no deberia correr hasta que yo lo toque..........."
+      - echo "Ultima prueba y salimos!!!!!!!!!!"
       - echo hola! > sayhi.txt
-      - echo oi! >> sayhi.txt
-      - cat sayhi.txt
+      - cat este_file.txt
 artifacts: 
   files: 
     - sayhi.txt
