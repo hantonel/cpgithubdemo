@@ -5,7 +5,7 @@ phases:
         python: 3.7
   build:
     commands:
-      - echo "A ver si ahora funciona..........."
+      - echo "Esto no deberia correr hasta que yo lo toque..........."
       - echo hola! > sayhi.txt
       - echo oi! >> sayhi.txt
       - cat sayhi.txt
