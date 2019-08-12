@@ -5,7 +5,7 @@ phases:
         python: 3.7
   build:
     commands:
-      - echo "Arrancamos papa de nuevo!!!!"
+      - echo "Una prueba..."
       - echo hola! > sayhi.txt
       - echo oi! >> sayhi.txt
       - cat sayhi.txt
