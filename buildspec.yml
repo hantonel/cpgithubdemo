@@ -5,11 +5,9 @@ phases:
         python: 3.7
   build:
     commands:
+      - echo "Starting..."
       - echo hola! > sayhi.txt
       - echo oi! >> sayhi.txt
-      - echo halo! >> sayhi.txt
-      - echo ciao! >> sayhi.txt
-      - echo hello! >> sayhi.txt
       - cat sayhi.txt
 artifacts: 
   files: 
