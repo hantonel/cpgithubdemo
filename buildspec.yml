@@ -7,7 +7,7 @@ phases:
     commands:
       - echo "Ultima prueba y salimos!!!!!!!!!!"
       - echo hola! > sayhi.txt
-      - cat este_file.txt
+      - ls -lah
 artifacts: 
   files: 
     - sayhi.txt
