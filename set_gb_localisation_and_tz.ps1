@@ -26,5 +26,3 @@ REG IMPORT "C:\Users\Public\Downloads\language\s-1-5-20.REG"
 REG IMPORT "C:\Users\Public\Downloads\language\.default.REG"
 
 whoami.exe > c:\log.txt
-
-Start-Sleep -Seconds 180
