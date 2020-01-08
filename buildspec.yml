@@ -10,6 +10,7 @@ phases:
       - echo holahola >> sayhi.txt
       - cat sayhi.txt
       - echo $hola
+      - echo hello-from-secrets-manager
 artifacts: 
   files: 
     - sayhi.txt
