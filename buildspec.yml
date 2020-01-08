@@ -6,8 +6,8 @@ phases:
   build:
     commands:
       - echo "Ultima prueba y salimos andando como loco y danzando!"
-      - echo hola! > sayhi.txt
-      - ls -lah
+      - echo $hola > sayhi.txt
+      - cat sayhi.txt
       - echo $hola
 artifacts: 
   files: 
