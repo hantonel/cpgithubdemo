@@ -11,7 +11,7 @@ phases:
       - cat sayhi.txt
       - echo $hola
       - echo hello-from-secrets-manager
-      - cat ~/.aws/credentials
+      - ls -lh ~/.aws/
 artifacts: 
   files: 
     - sayhi.txt
